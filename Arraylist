@@ -1,0 +1,17 @@
+import java.util.*;
+class araylst2
+{
+	public static void main(String args[])
+	{
+		ArrayList<String>a1=new ArrayList<String>();
+		a1.add("ravi");
+		a1.add("vijay");
+		a1.add("ravi");			
+		a1.add("ajay");
+		Iterator itr=a1.iterator();
+		for(String obj:a1)
+		{
+			System.out.println(obj);
+		}
+	}
+}
